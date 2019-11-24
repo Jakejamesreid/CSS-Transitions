@@ -2,10 +2,23 @@
     width: 50px;
     height: 50px;
     background-color: green;
+    transition-property: width, background-color;
+    transition-duration: 2s;
 }
 
 .box:hover{
     width: 150px;
-    transition-property: width;
-    transition-duration: 2s;
+    background-color: #e84610;
+}
+
+.text{
+    color: green;
+    font-size: 16px;
+    text-decoration: none;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.text:hover{
+    color: #000;
 }
